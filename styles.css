@@ -1,0 +1,35 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth; /* Smooth scrolling for mobile users */
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background: linear-gradient(135deg, #4FA3D1, #FF3B3B);
+  color: #1B1B1B;
+  font-family: "Arial", sans-serif;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align to the top of the page */
+  min-height: 100vh; /* Ensure the body takes up full height */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
